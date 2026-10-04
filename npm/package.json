@@ -1,0 +1,19 @@
+{
+  "name": "vexillum",
+  "version": "0.0.1",
+  "description": "Reserved for the Vexillum standard: agent pipelines that live in the repository. The vex CLI will grow here.",
+  "keywords": ["vexillum", "agents", "pipeline", "continuous-delegation", "ai"],
+  "homepage": "https://vexillum.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vexillum-spec/vexillum.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "vex": "cli.js"
+  },
+  "files": ["cli.js", "README.md"],
+  "engines": {
+    "node": ">=18"
+  }
+}
